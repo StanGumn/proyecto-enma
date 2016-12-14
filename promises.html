@@ -52,27 +52,29 @@
                    Las promesas nos permiten convertir nuestro código horizontal (callback hell):
                 </p>          
             
-                 <div align="center">
-               <img src="https://static.onthehub.com/production/attachments/15/02d9fd7e-820f-e511-940d-b8ca3a5db7a1/052bf734-eaca-4d5e-bae5-698d196a1f42.png" alt="logo epn" width="100" height="50">
-              </div>
-                
+               
                 <div class="row">
                     <div class="large-6 columns">
                         <pre></pre>
                         <code class="language-javaScript">
                            <div class="code-conteiner">
-                           <span class="comment">//Usando ES6 Blocks:</span>
+                           <span class="comment">Codigo vertical:</span>
                               <br>
-                              
-         <span class="comment">     
-            {
-            <br>
-    let picada = 'Papas';
+         <span class="comment">   
+           func1(value1)
+           <br>
+    .then(func2)
     <br>
-};
-<br>
-
-console.log(picada);     
+    .then(func3)
+    <br>
+    .then(func4)
+    <br>
+    .then(func5, value5 => {
+       <br>
+        // Do something with value 5
+        <br>
+    });  
+        <br>
                           </span>
                                <br>
                             </div>
