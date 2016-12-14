@@ -49,11 +49,55 @@
             <section class="main-section">
                 
                <p>
-                    ECMAScript es el estándar que define cómo debe de ser el lenguaje Javascript. Sin entrar en datos históricos, que puedes consultar otras fuentes como la Wikipedia sobre ECMAScript, cabe decir que es la especificación que los fabricantes deben seguir al crear intérpretes para Javascript.
-
-                    Como sabes, Javascript es interpretado y procesado por multitud de plataformas, entre las que se encuentran los navegadores web, así como NodeJS y otros ámbitos más específicos como el desarrollo de aplicaciones para Windows y otros sistemas operativos. Todos los responsables de cada una de esas tecnologías se encargan de interpretar el lenguaje tal como dice el estándar ECMAScript.
+                    La desestructuración nos permite extraer valores de arrays y objetos (incluso profundamente anidados) y almacenarlos en variables con una sintaxis más conveniente.
                 </p>          
             
+                 <div class="row">
+                    <div class="large-6 columns">
+                        <code class="language-javaScript">
+                           <div class="code-conteiner">
+                           <span class="comment">Destruyendo arreglos</span>
+                             
+                        
+         <span class="comment">   
+          <pre>
+        var arr = [1, 2, 3, 4];
+        var a = arr[0];
+        var b = arr[1];
+        var c = arr[2];
+        var d = arr[3];
+    
+        let [a, b, c, d] = [1, 2, 3, 4];
+
+        console.log(a); // 1
+        console.log(b); // 2
+                         </pre>
+                          </span>
+                               <br>
+                                <span class="comment">Destruyendo objetos</span>
+                             
+                        
+         <span class="comment">   
+          <pre>
+        var luke = { occupation: 'jedi', father: 'anakin' };
+        var occupation = luke.occupation; // 'jedi'
+        var father = luke.father; // 'anakin'
+        
+        
+        let luke = { occupation: 'jedi', father: 'anakin' };
+        let {occupation, father} = luke;
+
+        console.log(occupation); // 'jedi'
+        console.log(father); // 'anakin'
+        
+                         </pre>
+                          </span>
+                            </div>
+                        </code>
+                        </div>
+                    
+                </div>
+                
                  
                  <a href="modules.html" class="button round">Siguiente</a>
                 
