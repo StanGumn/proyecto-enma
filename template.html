@@ -49,13 +49,52 @@
             <section class="main-section">
                 
                <p>
-                    ECMAScript es el estándar que define cómo debe de ser el lenguaje Javascript. Sin entrar en datos históricos, que puedes consultar otras fuentes como la Wikipedia sobre ECMAScript, cabe decir que es la especificación que los fabricantes deben seguir al crear intérpretes para Javascript.
-
-                    Como sabes, Javascript es interpretado y procesado por multitud de plataformas, entre las que se encuentran los navegadores web, así como NodeJS y otros ámbitos más específicos como el desarrollo de aplicaciones para Windows y otros sistemas operativos. Todos los responsables de cada una de esas tecnologías se encargan de interpretar el lenguaje tal como dice el estándar ECMAScript.
+                    Usando Template Literals, ahora podemos construir cadenas que tienen caracteres especiales en ellas sin necesidad de escaparlas explícitamente.
                 </p>          
             
+               
+               <div class="row">
+                        <div class="large-6 columns">
+                            <code class="language-javaScript">
+                                <div class="code-conteiner">
+                                    <span class="comment">Codigo vertical:</span>
+
+
+                                    <span class="comment">   
+                                        <pre>
+            var text = "This string contains \"double quotes\" which are escaped.";
+            let text = `This string contains "double quotes" which don't need to be escaped anymore.`;
+                                         </pre>
+                                    </span>
+                                    <br>
+                                </div>
+                            </code>    
+                        </div>
+                    </div>
+                <p>Los literales de plantilla también admiten interpolación, lo que hace que la tarea de concatenar cadenas y valores:</p>
+                
+                <div class="row">
+                        <div class="large-6 columns">
+                            <code class="language-javaScript">
+                                <div class="code-conteiner">
+                                    <span class="comment">Codigo vertical:</span>
+
+
+                                    <span class="comment">   
+                                        <pre>
+        var name = 'Tiger';
+        var age = 13;
+
+        console.log('My cat is named ' + name + ' and is ' + age + ' years old.');
+                                         </pre>
+                                    </span>
+                                    <br>
+                                </div>
+                            </code>    
+                        </div>
+                    </div>
                  
-                 <a href="array.html" class="button round">Siguiente</a>
+                 <a href="object.html" class="button round">Siguiente</a>
                 
             </section>
 
