@@ -58,24 +58,29 @@
                     <div class="large-6 columns">
                         <code class="language-javaScript">
                            <div class="code-conteiner">
-                           <span class="comment">Codigo vertical:</span>
+                           <span class="comment">Ejemplo</span>
                              
                         
          <span class="comment">   
           <pre>
-           func1(value1)
-           
-                .then(func2)
-    
-                .then(func3)
-    
-                .then(func4)
-    
-                .then(func5, value5 => {
-       
-                // Do something with value 5
-        
-            });  
+           var person = {
+              firstName: 'James',
+              lastName: 'Bond',
+             get fullName() {
+                  console.log('Getting FullName');
+                  return this.firstName + ' ' + this.lastName;
+              },
+              set fullName (name) {
+                  console.log('Setting FullName');
+                  var words = name.toString().split(' ');
+              this.firstName = words[0] || '';
+              this.lastName = words[1] || '';
+              }
+            }
+
+            person.fullName; // James Bond
+            person.fullName = 'Bond 007';
+            person.fullName; // Bond 007  
         
                          </pre>
                           </span>
