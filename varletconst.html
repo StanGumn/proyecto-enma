@@ -1,55 +1,16 @@
-<!DOCTYPE html>
-<!-- saved from url=(0071)http://foundation.zurb.com/sites/docs/v/5.5.3/javascript-utilities.html -->
-<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en" dir="ltr">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta class="foundation-mq-small">
-    <meta class="foundation-mq-small-only">
-    <meta class="foundation-mq-medium">
-    <meta class="foundation-mq-medium-only">
-    <meta class="foundation-mq-large">
-    <meta class="foundation-mq-large-only">
-    <meta class="foundation-mq-xlarge">
-    <meta class="foundation-mq-xlarge-only">
-    <meta class="foundation-mq-xxlarge">
-    <meta class="foundation-data-attribute-namespace">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>JavaScript Utilities | Foundation Docs</title>
-    <link rel="icon" href="http://foundation.zurb.com/sites/docs/v/5.5.3/assets/img/icons/oundation-favicon.ico" type="image/x-icon">
-    <!-- For third-generation iPad with high-resolution Retina display: -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://foundation.zurb.com/sites/docs/v/5.5.3/assets/img/icons/apple-touch-icon-144x144-precomposed.png">
-    <!-- For iPhone with high-resolution Retina display: -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://foundation.zurb.com/sites/docs/v/5.5.3/assets/img/icons/apple-touch-icon-114x114-precomposed.png">
-    <!-- For first- and second-generation iPad: -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://foundation.zurb.com/sites/docs/v/5.5.3/assets/img/icons/apple-touch-icon-72x72-precomposed.png">
-    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <link rel="apple-touch-icon-precomposed" href="http://foundation.zurb.com/sites/docs/v/5.5.3/assets/img/icons/apple-touch-icon-precomposed.png">
-
-    <meta name="description" content="Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more.">
-    <meta name="author" content="ZURB, inc. ZURB network also includes zurb.com">
-    <meta name="copyright" content="ZURB, inc. Copyright (c) 2014">
-
-    <link href="./JavaScript Utilities _ Foundation Docs_files/docs.css" rel="stylesheet">
-    <link href="./JavaScript Utilities _ Foundation Docs_files/foundation-icons.css" rel="stylesheet">
-    <script type="text/javascript" async="" src="./JavaScript Utilities _ Foundation Docs_files/ga.js.download"></script>
-    <script src="./JavaScript Utilities _ Foundation Docs_files/modernizr.js.download"></script>
-    <style></style>
-    <meta class="foundation-mq-topbar">
-
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="foundation.css" />
     <script src="modernizr.js"></script>
-</head>
-</head>
-
-<body>
-
-
-    <div class="off-canvas-wrap" data-offcanvas>
+  </head>
+  <body>
+    
+    
+  <div class="off-canvas-wrap" data-offcanvas>
         <div class="inner-wrap">
 
             <!-- Top menu bar -->
@@ -60,15 +21,13 @@
                 <section class="middle tab-bar-section">
                     <h1 class="title">var vs let vs const </h1>
                 </section>
-
+                
             </nav>
 
             <!-- Left menu -->
             <aside class="left-off-canvas-menu">
-                <ul class="off-canvas-list">
-                    <li>
-                        <label>Contenido</label>
-                    </li>
+               <ul class="off-canvas-list">
+                    <li><label>Contenido</label></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="varletconst.html">1.var vs let vs const</a></li>
                     <li><a href="iifes.html">2.  IIFEs ahora Blocks</a></li>
@@ -88,10 +47,10 @@
 
             <!-- Main content -->
             <section class="main-section">
-
-                <p>
-                    ECMAScript es el estándar que define cómo debe de ser el lenguaje Javascript. Sin entrar en datos históricos, que puedes consultar otras fuentes como la Wikipedia sobre ECMAScript, cabe decir que es la especificación que los fabricantes deben seguir al crear intérpretes para Javascript. Como sabes, Javascript es interpretado y procesado por multitud de plataformas, entre las que se encuentran los navegadores web, así como NodeJS y otros ámbitos más específicos como el desarrollo de aplicaciones para Windows y otros sistemas operativos. Todos los responsables de cada una de esas tecnologías se encargan de interpretar el lenguaje tal como dice el estándar ECMAScript.
-                </p>
+                
+               <p>
+                    Además de var, ahora tenemos acceso a dos nuevos identificadores para almacenar valores -let y const. A diferencia de las sentencias var, let y const no se elevan a la parte superior de su ámbito de inclusión.
+                </p>          
                 <div class="row">
                     <div class="large-6 columns">
                         <pre></pre>
@@ -125,22 +84,22 @@
                             </div>
                         </code>
                         </div>
-                    </pre>
+                    
                 </div>
-                <a href="iifes.html" class="button round">Siguiente</a>
-
+                 
+                 <a href="iifes.html" class="button round">Siguiente</a>
+                
             </section>
 
             <a class="exit-off-canvas"></a>
 
         </div>
     </div>
-
+         
     <script src="jquery.js"></script>
     <script src="foundation.min.js"></script>
     <script>
-        $(document).foundation();
+      $(document).foundation();
     </script>
-</body>
-
+  </body>
 </html>
